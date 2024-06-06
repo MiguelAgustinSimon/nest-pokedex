@@ -39,6 +39,10 @@ npm i -g @nest/cli
 docker-compose up -d
 ```
 
+5. Recargar DB Seed 
+```
+GET - http://localhost:3000/api/v2/seed
+```
 ## Stask Usado
 * MongoDB
 * Nest
